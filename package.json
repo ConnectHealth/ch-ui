@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "format": "prettier --single-quote --trailing-comma=es5 --write src/*.js src/**/*.js src/**/*.jsx",
+    "format":
+      "prettier --single-quote --trailing-comma=es5 --write src/*.js src/**/*.js src/**/*.jsx",
     "flow": "flow",
     "style": "styleguidist server",
     "style:build": "styleguidist build"

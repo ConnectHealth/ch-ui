@@ -26,7 +26,7 @@ const AllPatientsQuery = gql`
 type PatientType = {|
   id: string,
   firstName: string,
-  lastName: string,
+  lastName: string
 |};
 
 const PatientItem = ({ node }: { node: PatientType } = {}) => (
@@ -61,10 +61,10 @@ const data = {
     allPatients: {
       edges: [
         { node: { id: 1, firstName: 'John', lastName: 'Smith' } },
-        { node: { id: 2, firstName: 'Kate', lastName: 'Jones' } },
-      ],
-    },
-  },
+        { node: { id: 2, firstName: 'Kate', lastName: 'Jones' } }
+      ]
+    }
+  }
 };
 const Results = () => <PatientList data={data} />;
 
